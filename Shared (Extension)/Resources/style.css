@@ -51,3 +51,11 @@ ytd-guide-entry-renderer a[title="Trending"]{
     font-weight: 400;
 }
 
+/* iPhone stuff */
+div[tab-identifier="FEwhat_to_watch"]{
+    display: none !important;
+}
+
+ytm-item-section-renderer[section-identifier="related-items"]{
+    display: none;
+}
