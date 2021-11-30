@@ -43,6 +43,8 @@
 		D76921FF2756452E00EB4CEA /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D76921AE2756452E00EB4CEA /* popup.js */; };
 		D7692211275645D800EB4CEA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7692210275645D800EB4CEA /* Icon.png */; };
 		D7692212275645D800EB4CEA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7692210275645D800EB4CEA /* Icon.png */; };
+		D769221727564D8F00EB4CEA /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = D769221627564D8F00EB4CEA /* style.css */; };
+		D769221827564D8F00EB4CEA /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = D769221627564D8F00EB4CEA /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +119,7 @@
 		D76921E02756452E00EB4CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D76921E12756452E00EB4CEA /* Hide distractions on YouTube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hide distractions on YouTube.entitlements"; sourceTree = "<group>"; };
 		D7692210275645D800EB4CEA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D769221627564D8F00EB4CEA /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +204,7 @@
 				D76921A82756452E00EB4CEA /* images */,
 				D76921A92756452E00EB4CEA /* manifest.json */,
 				D76921AB2756452E00EB4CEA /* content.js */,
+				D769221627564D8F00EB4CEA /* style.css */,
 				D76921AC2756452E00EB4CEA /* popup.html */,
 				D76921AD2756452E00EB4CEA /* popup.css */,
 				D76921AE2756452E00EB4CEA /* popup.js */,
@@ -414,6 +418,7 @@
 				D76921FA2756452E00EB4CEA /* popup.html in Resources */,
 				D76921F22756452E00EB4CEA /* images in Resources */,
 				D76921F42756452E00EB4CEA /* manifest.json in Resources */,
+				D769221727564D8F00EB4CEA /* style.css in Resources */,
 				D76921F02756452E00EB4CEA /* _locales in Resources */,
 				D76921F82756452E00EB4CEA /* content.js in Resources */,
 				D76921FE2756452E00EB4CEA /* popup.js in Resources */,
@@ -428,6 +433,7 @@
 				D76921FB2756452E00EB4CEA /* popup.html in Resources */,
 				D76921F32756452E00EB4CEA /* images in Resources */,
 				D76921F52756452E00EB4CEA /* manifest.json in Resources */,
+				D769221827564D8F00EB4CEA /* style.css in Resources */,
 				D76921F12756452E00EB4CEA /* _locales in Resources */,
 				D76921F92756452E00EB4CEA /* content.js in Resources */,
 				D76921FF2756452E00EB4CEA /* popup.js in Resources */,

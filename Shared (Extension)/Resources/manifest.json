@@ -15,8 +15,9 @@
     },
 
     "content_scripts": [{
+        "css": [ "style.css" ],
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "*://www.youtube.com/*" ]
     }],
 
     "browser_action": {
