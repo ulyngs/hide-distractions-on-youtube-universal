@@ -2,8 +2,8 @@
     "manifest_version": 2,
     "default_locale": "en",
 
-    "name": "__MSG_extension_name__",
-    "description": "__MSG_extension_description__",
+    "name": "Hide distractions on YouTube",
+    "description": "Hides recommended videos from the home page and related videos when watching a video. Hides comments until you press a button to load them.",
     "version": "1.0",
 
     "icons": {
