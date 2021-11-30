@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D730D77227567C27006C1004 /* extension_turn_on_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D730D77127567C27006C1004 /* extension_turn_on_iphone.png */; };
+		D730D7742756895B006C1004 /* extension_turn_on_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D730D7732756895B006C1004 /* extension_turn_on_ipad.png */; };
 		D76921B72756452E00EB4CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76921B62756452E00EB4CEA /* AppDelegate.swift */; };
 		D76921B92756452E00EB4CEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76921B82756452E00EB4CEA /* SceneDelegate.swift */; };
 		D76921BC2756452E00EB4CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76921BA2756452E00EB4CEA /* LaunchScreen.storyboard */; };
@@ -90,6 +92,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D730D77127567C27006C1004 /* extension_turn_on_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = extension_turn_on_iphone.png; sourceTree = "<group>"; };
+		D730D7732756895B006C1004 /* extension_turn_on_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = extension_turn_on_ipad.png; sourceTree = "<group>"; };
 		D769219E2756452C00EB4CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		D76921A02756452C00EB4CEA /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		D76921A12756452C00EB4CEA /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
@@ -180,6 +184,8 @@
 		D769219C2756452C00EB4CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D730D7732756895B006C1004 /* extension_turn_on_ipad.png */,
+				D730D77127567C27006C1004 /* extension_turn_on_iphone.png */,
 				D769219D2756452C00EB4CEA /* Main.html */,
 				D7692210275645D800EB4CEA /* Icon.png */,
 				D76921A02756452C00EB4CEA /* Style.css */,
@@ -387,8 +393,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D730D7742756895B006C1004 /* extension_turn_on_ipad.png in Resources */,
 				D76921BC2756452E00EB4CEA /* LaunchScreen.storyboard in Resources */,
 				D76921E22756452E00EB4CEA /* Main.html in Resources */,
+				D730D77227567C27006C1004 /* extension_turn_on_iphone.png in Resources */,
 				D76921E82756452E00EB4CEA /* Script.js in Resources */,
 				D76921EC2756452E00EB4CEA /* Assets.xcassets in Resources */,
 				D76921BF2756452E00EB4CEA /* Main.storyboard in Resources */,
