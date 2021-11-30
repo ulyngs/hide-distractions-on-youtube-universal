@@ -17,8 +17,6 @@
 		D76921DC2756452E00EB4CEA /* Hide distractions on YouTube Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D76921DB2756452E00EB4CEA /* Hide distractions on YouTube Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D76921E22756452E00EB4CEA /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D769219D2756452C00EB4CEA /* Main.html */; };
 		D76921E32756452E00EB4CEA /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D769219D2756452C00EB4CEA /* Main.html */; };
-		D76921E42756452E00EB4CEA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D769219F2756452C00EB4CEA /* Icon.png */; };
-		D76921E52756452E00EB4CEA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D769219F2756452C00EB4CEA /* Icon.png */; };
 		D76921E62756452E00EB4CEA /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D76921A02756452C00EB4CEA /* Style.css */; };
 		D76921E72756452E00EB4CEA /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D76921A02756452C00EB4CEA /* Style.css */; };
 		D76921E82756452E00EB4CEA /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D76921A12756452C00EB4CEA /* Script.js */; };
@@ -45,6 +43,8 @@
 		D76921FD2756452E00EB4CEA /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D76921AD2756452E00EB4CEA /* popup.css */; };
 		D76921FE2756452E00EB4CEA /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D76921AE2756452E00EB4CEA /* popup.js */; };
 		D76921FF2756452E00EB4CEA /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D76921AE2756452E00EB4CEA /* popup.js */; };
+		D7692211275645D800EB4CEA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7692210275645D800EB4CEA /* Icon.png */; };
+		D7692212275645D800EB4CEA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7692210275645D800EB4CEA /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +91,6 @@
 
 /* Begin PBXFileReference section */
 		D769219E2756452C00EB4CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		D769219F2756452C00EB4CEA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		D76921A02756452C00EB4CEA /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		D76921A12756452C00EB4CEA /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		D76921A22756452C00EB4CEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +119,7 @@
 		D76921DB2756452E00EB4CEA /* Hide distractions on YouTube Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hide distractions on YouTube Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76921E02756452E00EB4CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D76921E12756452E00EB4CEA /* Hide distractions on YouTube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hide distractions on YouTube.entitlements"; sourceTree = "<group>"; };
+		D7692210275645D800EB4CEA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,7 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				D769219D2756452C00EB4CEA /* Main.html */,
-				D769219F2756452C00EB4CEA /* Icon.png */,
+				D7692210275645D800EB4CEA /* Icon.png */,
 				D76921A02756452C00EB4CEA /* Style.css */,
 				D76921A12756452C00EB4CEA /* Script.js */,
 			);
@@ -387,12 +387,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D76921E42756452E00EB4CEA /* Icon.png in Resources */,
 				D76921BC2756452E00EB4CEA /* LaunchScreen.storyboard in Resources */,
 				D76921E22756452E00EB4CEA /* Main.html in Resources */,
 				D76921E82756452E00EB4CEA /* Script.js in Resources */,
 				D76921EC2756452E00EB4CEA /* Assets.xcassets in Resources */,
 				D76921BF2756452E00EB4CEA /* Main.storyboard in Resources */,
+				D7692211275645D800EB4CEA /* Icon.png in Resources */,
 				D76921E62756452E00EB4CEA /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,7 +401,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D76921E52756452E00EB4CEA /* Icon.png in Resources */,
+				D7692212275645D800EB4CEA /* Icon.png in Resources */,
 				D76921E72756452E00EB4CEA /* Style.css in Resources */,
 				D76921CB2756452E00EB4CEA /* Main.storyboard in Resources */,
 				D76921E92756452E00EB4CEA /* Script.js in Resources */,
