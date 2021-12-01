@@ -56,6 +56,20 @@ div[tab-identifier="FEwhat_to_watch"]{
     display: none !important;
 }
 
-ytm-item-section-renderer[section-identifier="related-items"]{
+ytm-item-section-renderer[section-identifier="related-items"] {
     display: none;
+}
+
+/* hide ads on the search page */
+ytm-promoted-sparkles-text-search-renderer,
+ytd-promoted-sparkles-text-search-renderer,
+ytd-promoted-sparkles-web-renderer {
+    display: none !important;
+}
+
+
+
+/* hide the ads on a video page */
+ytm-promoted-sparkles-web-renderer, ytm-companion-ad-renderer {
+    display: none !important;
 }
