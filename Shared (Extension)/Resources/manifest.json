@@ -3,7 +3,7 @@
     "default_locale": "en",
 
     "name": "Hide distractions on YouTube",
-    "description": "Hides recommended videos on the home page, and related videos when watching a video. On Mac + iPad it also hides comments until you press a button to load them",
+    "description": "Hides recommended videos on the home page, and related videos when watching. On Mac + iPad also hides comments until you press a button.",
     "version": "1.0",
 
     "icons": {
