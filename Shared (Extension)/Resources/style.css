@@ -1,6 +1,6 @@
 /* hide videos on home page */
 ytd-browse[page-subtype="home"] {
-    display: none !important;
+    visibility: hidden;
 }
 
 /* on narrow viewport, hide this element

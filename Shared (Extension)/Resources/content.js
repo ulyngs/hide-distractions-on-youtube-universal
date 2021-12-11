@@ -21,3 +21,38 @@ document.addEventListener("yt-page-data-updated", function(event) {
         });
     }
 });
+
+
+// content.js
+chrome.runtime.onMessage.addListener(
+    function(request, sender, sendResponse) {
+        recVids = document.querySelector('ytd-browse[page-subtype="home"]');
+        
+        // check for visibility
+        if(request.method == "checkRecHome"){
+            if (recVids.style.visibility === "hidden") {
+                sendResponse({text: "hidden", method: "checkRecHome"});
+            } else if (recVids.style.visibility === "visible") {
+                sendResponse({text: "visible", method: "checkRecHome"});
+            } else {
+                sendResponse({text: "hidden", method: "checkRecHome"});
+            }
+        }
+        
+        // change visibility
+        if(request.method == "changeRecVids"){
+            if (recVids.style.visibility === "hidden") {
+                recVids.style.visibility = "visible";
+                sendResponse({text: "rec vids visible", method: "changeRecVids"});
+            } else if (recVids.style.visibility === "visible") {
+                recVids.style.visibility = "hidden";
+                sendResponse({text: "rec vids hidden", method: "changeRecVids"});
+            } else {
+                recVids.style.visibility = "visible";
+                sendResponse({text: "rec vids visible", method: "changeRecVids"});
+            }
+        }
+    }
+);
+
+
