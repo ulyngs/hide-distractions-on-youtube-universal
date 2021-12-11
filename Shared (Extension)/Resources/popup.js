@@ -20,6 +20,19 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 }
             });
+            
+            chrome.tabs.sendMessage(tabs[0].id, {method: "checkRelVids"}, function(response) {
+                
+                var relCheckbox = document.getElementById('relVidsToggle');
+                
+                if(response.method == "checkRelVids"){
+                    if(response.text === "visible"){
+                        relCheckbox.checked = true;
+                    } else {
+                        relCheckbox.checked = false;
+                    }
+                }
+            });
         }
     });
     
@@ -34,6 +47,22 @@ document.addEventListener('DOMContentLoaded', function() {
                     console.log("Recommended videos are visible")
                 } else {
                     console.log("Recommended videos are hidden")
+                }
+            }
+        });
+      });
+    }, false);
+    
+    var relCheckbox = document.getElementById('relVidsToggle');
+    relCheckbox.addEventListener('click', function() {
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+        chrome.tabs.sendMessage(tabs[0].id, {method: "changeRelVids"}, function(response) {
+            
+            if(response.method == "changeRelVids"){
+                if(response.text === "related vids visible"){
+                    console.log("Related videos are visible")
+                } else {
+                    console.log("Related videos are hidden")
                 }
             }
         });

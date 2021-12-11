@@ -52,6 +52,34 @@ chrome.runtime.onMessage.addListener(
                 sendResponse({text: "rec vids visible", method: "changeRecVids"});
             }
         }
+        
+        relVids = document.querySelector('#related');
+        
+        // check for visibility
+        if(request.method == "checkRelVids"){
+            if (relVids.style.visibility === "hidden") {
+                sendResponse({text: "hidden", method: "checkRelVids"});
+            } else if (relVids.style.visibility === "visible") {
+                sendResponse({text: "visible", method: "checkRelVids"});
+            } else {
+                sendResponse({text: "hidden", method: "checkRelVids"});
+            }
+        }
+        
+        // change visibility
+        if(request.method == "changeRelVids"){
+            if (relVids.style.visibility === "hidden") {
+                relVids.style.visibility = "visible";
+                sendResponse({text: "related vids visible", method: "changeRelVids"});
+            } else if (relVids.style.visibility === "visible") {
+                relVids.style.visibility = "hidden";
+                sendResponse({text: "related vids hidden", method: "changeRelVids"});
+            } else {
+                relVids.style.visibility = "visible";
+                sendResponse({text: "related vids visible", method: "changeRelVids"});
+            }
+        }
+        
     }
 );
 
