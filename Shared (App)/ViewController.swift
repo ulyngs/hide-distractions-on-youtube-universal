@@ -16,7 +16,7 @@ import SafariServices
 typealias PlatformViewController = NSViewController
 #endif
 
-let extensionBundleIdentifier = "com.ulriklyngs.Hide-distractions-on-YouTube.Extension"
+let extensionBundleIdentifier = "com.ulriklyngs.yt-minimiser.yt-minimiser"
 
 class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMessageHandler {
 

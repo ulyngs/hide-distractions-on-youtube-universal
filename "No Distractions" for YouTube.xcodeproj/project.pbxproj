@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		D730D77227567C27006C1004 /* extension_turn_on_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D730D77127567C27006C1004 /* extension_turn_on_iphone.png */; };
 		D730D7742756895B006C1004 /* extension_turn_on_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D730D7732756895B006C1004 /* extension_turn_on_ipad.png */; };
+		D7607A1D276792B100FB0E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76921C92756452E00EB4CEA /* Main.storyboard */; };
 		D76921B72756452E00EB4CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76921B62756452E00EB4CEA /* AppDelegate.swift */; };
 		D76921B92756452E00EB4CEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76921B82756452E00EB4CEA /* SceneDelegate.swift */; };
 		D76921BC2756452E00EB4CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76921BA2756452E00EB4CEA /* LaunchScreen.storyboard */; };
 		D76921BF2756452E00EB4CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76921BD2756452E00EB4CEA /* Main.storyboard */; };
 		D76921C82756452E00EB4CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76921C72756452E00EB4CEA /* AppDelegate.swift */; };
-		D76921CB2756452E00EB4CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76921C92756452E00EB4CEA /* Main.storyboard */; };
-		D76921D22756452E00EB4CEA /* Hide distractions on YouTube Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D76921D12756452E00EB4CEA /* Hide distractions on YouTube Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D76921DC2756452E00EB4CEA /* Hide distractions on YouTube Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D76921DB2756452E00EB4CEA /* Hide distractions on YouTube Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D76921D22756452E00EB4CEA /* "No Distractions" for YouTube Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D76921D12756452E00EB4CEA /* "No Distractions" for YouTube Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D76921DC2756452E00EB4CEA /* "No Distractions" for YouTube Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D76921DB2756452E00EB4CEA /* "No Distractions" for YouTube Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D76921E22756452E00EB4CEA /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D769219D2756452C00EB4CEA /* Main.html */; };
 		D76921E32756452E00EB4CEA /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D769219D2756452C00EB4CEA /* Main.html */; };
 		D76921E62756452E00EB4CEA /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D76921A02756452C00EB4CEA /* Style.css */; };
@@ -73,7 +73,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				D76921D22756452E00EB4CEA /* Hide distractions on YouTube Extension.appex in Embed App Extensions */,
+				D76921D22756452E00EB4CEA /* "No Distractions" for YouTube Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,7 +84,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				D76921DC2756452E00EB4CEA /* Hide distractions on YouTube Extension.appex in Embed App Extensions */,
+				D76921DC2756452E00EB4CEA /* "No Distractions" for YouTube Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,21 +107,21 @@
 		D76921AC2756452E00EB4CEA /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		D76921AD2756452E00EB4CEA /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		D76921AE2756452E00EB4CEA /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
-		D76921B32756452E00EB4CEA /* Hide distractions on YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hide distractions on YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76921B32756452E00EB4CEA /* "No Distractions" for YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "\"No Distractions\" for YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76921B62756452E00EB4CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D76921B82756452E00EB4CEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D76921BB2756452E00EB4CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D76921BE2756452E00EB4CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D76921C02756452E00EB4CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D76921C52756452E00EB4CEA /* Hide distractions on YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hide distractions on YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76921C52756452E00EB4CEA /* "No Distractions" for YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "\"No Distractions\" for YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76921C72756452E00EB4CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D76921CA2756452E00EB4CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D76921CC2756452E00EB4CEA /* Hide distractions on YouTube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hide distractions on YouTube.entitlements"; sourceTree = "<group>"; };
-		D76921D12756452E00EB4CEA /* Hide distractions on YouTube Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hide distractions on YouTube Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76921CC2756452E00EB4CEA /* No Distractions for YouTube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "No Distractions for YouTube.entitlements"; sourceTree = "<group>"; };
+		D76921D12756452E00EB4CEA /* "No Distractions" for YouTube Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "\"No Distractions\" for YouTube Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76921D62756452E00EB4CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D76921DB2756452E00EB4CEA /* Hide distractions on YouTube Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hide distractions on YouTube Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76921DB2756452E00EB4CEA /* "No Distractions" for YouTube Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "\"No Distractions\" for YouTube Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76921E02756452E00EB4CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D76921E12756452E00EB4CEA /* Hide distractions on YouTube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hide distractions on YouTube.entitlements"; sourceTree = "<group>"; };
+		D76921E12756452E00EB4CEA /* No Distractions for YouTube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "No Distractions for YouTube.entitlements"; sourceTree = "<group>"; };
 		D7692210275645D800EB4CEA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		D769221627564D8F00EB4CEA /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -221,10 +221,10 @@
 		D76921B42756452E00EB4CEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D76921B32756452E00EB4CEA /* Hide distractions on YouTube.app */,
-				D76921C52756452E00EB4CEA /* Hide distractions on YouTube.app */,
-				D76921D12756452E00EB4CEA /* Hide distractions on YouTube Extension.appex */,
-				D76921DB2756452E00EB4CEA /* Hide distractions on YouTube Extension.appex */,
+				D76921B32756452E00EB4CEA /* "No Distractions" for YouTube.app */,
+				D76921C52756452E00EB4CEA /* "No Distractions" for YouTube.app */,
+				D76921D12756452E00EB4CEA /* "No Distractions" for YouTube Extension.appex */,
+				D76921DB2756452E00EB4CEA /* "No Distractions" for YouTube Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,7 +246,7 @@
 			children = (
 				D76921C72756452E00EB4CEA /* AppDelegate.swift */,
 				D76921C92756452E00EB4CEA /* Main.storyboard */,
-				D76921CC2756452E00EB4CEA /* Hide distractions on YouTube.entitlements */,
+				D76921CC2756452E00EB4CEA /* No Distractions for YouTube.entitlements */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				D76921E02756452E00EB4CEA /* Info.plist */,
-				D76921E12756452E00EB4CEA /* Hide distractions on YouTube.entitlements */,
+				D76921E12756452E00EB4CEA /* No Distractions for YouTube.entitlements */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
@@ -271,9 +271,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D76921B22756452E00EB4CEA /* Hide distractions on YouTube (iOS) */ = {
+		D76921B22756452E00EB4CEA /* "No Distractions" for YouTube (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D76922062756452E00EB4CEA /* Build configuration list for PBXNativeTarget "Hide distractions on YouTube (iOS)" */;
+			buildConfigurationList = D76922062756452E00EB4CEA /* Build configuration list for PBXNativeTarget ""No Distractions" for YouTube (iOS)" */;
 			buildPhases = (
 				D76921AF2756452E00EB4CEA /* Sources */,
 				D76921B02756452E00EB4CEA /* Frameworks */,
@@ -285,14 +285,14 @@
 			dependencies = (
 				D76921D42756452E00EB4CEA /* PBXTargetDependency */,
 			);
-			name = "Hide distractions on YouTube (iOS)";
+			name = "\"No Distractions\" for YouTube (iOS)";
 			productName = "Hide distractions on YouTube (iOS)";
-			productReference = D76921B32756452E00EB4CEA /* Hide distractions on YouTube.app */;
+			productReference = D76921B32756452E00EB4CEA /* "No Distractions" for YouTube.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D76921C42756452E00EB4CEA /* Hide distractions on YouTube (macOS) */ = {
+		D76921C42756452E00EB4CEA /* "No Distractions" for YouTube (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D769220D2756452E00EB4CEA /* Build configuration list for PBXNativeTarget "Hide distractions on YouTube (macOS)" */;
+			buildConfigurationList = D769220D2756452E00EB4CEA /* Build configuration list for PBXNativeTarget ""No Distractions" for YouTube (macOS)" */;
 			buildPhases = (
 				D76921C12756452E00EB4CEA /* Sources */,
 				D76921C22756452E00EB4CEA /* Frameworks */,
@@ -304,14 +304,14 @@
 			dependencies = (
 				D76921DE2756452E00EB4CEA /* PBXTargetDependency */,
 			);
-			name = "Hide distractions on YouTube (macOS)";
+			name = "\"No Distractions\" for YouTube (macOS)";
 			productName = "Hide distractions on YouTube (macOS)";
-			productReference = D76921C52756452E00EB4CEA /* Hide distractions on YouTube.app */;
+			productReference = D76921C52756452E00EB4CEA /* "No Distractions" for YouTube.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D76921D02756452E00EB4CEA /* Hide distractions on YouTube Extension (iOS) */ = {
+		D76921D02756452E00EB4CEA /* "No Distractions" for YouTube Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D76922022756452E00EB4CEA /* Build configuration list for PBXNativeTarget "Hide distractions on YouTube Extension (iOS)" */;
+			buildConfigurationList = D76922022756452E00EB4CEA /* Build configuration list for PBXNativeTarget ""No Distractions" for YouTube Extension (iOS)" */;
 			buildPhases = (
 				D76921CD2756452E00EB4CEA /* Sources */,
 				D76921CE2756452E00EB4CEA /* Frameworks */,
@@ -321,14 +321,14 @@
 			);
 			dependencies = (
 			);
-			name = "Hide distractions on YouTube Extension (iOS)";
+			name = "\"No Distractions\" for YouTube Extension (iOS)";
 			productName = "Hide distractions on YouTube Extension (iOS)";
-			productReference = D76921D12756452E00EB4CEA /* Hide distractions on YouTube Extension.appex */;
+			productReference = D76921D12756452E00EB4CEA /* "No Distractions" for YouTube Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		D76921DA2756452E00EB4CEA /* Hide distractions on YouTube Extension (macOS) */ = {
+		D76921DA2756452E00EB4CEA /* "No Distractions" for YouTube Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D76922092756452E00EB4CEA /* Build configuration list for PBXNativeTarget "Hide distractions on YouTube Extension (macOS)" */;
+			buildConfigurationList = D76922092756452E00EB4CEA /* Build configuration list for PBXNativeTarget ""No Distractions" for YouTube Extension (macOS)" */;
 			buildPhases = (
 				D76921D72756452E00EB4CEA /* Sources */,
 				D76921D82756452E00EB4CEA /* Frameworks */,
@@ -338,9 +338,9 @@
 			);
 			dependencies = (
 			);
-			name = "Hide distractions on YouTube Extension (macOS)";
+			name = "\"No Distractions\" for YouTube Extension (macOS)";
 			productName = "Hide distractions on YouTube Extension (macOS)";
-			productReference = D76921DB2756452E00EB4CEA /* Hide distractions on YouTube Extension.appex */;
+			productReference = D76921DB2756452E00EB4CEA /* "No Distractions" for YouTube Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -367,7 +367,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D769219A2756452C00EB4CEA /* Build configuration list for PBXProject "Hide distractions on YouTube" */;
+			buildConfigurationList = D769219A2756452C00EB4CEA /* Build configuration list for PBXProject ""No Distractions" for YouTube" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -380,10 +380,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D76921B22756452E00EB4CEA /* Hide distractions on YouTube (iOS) */,
-				D76921C42756452E00EB4CEA /* Hide distractions on YouTube (macOS) */,
-				D76921D02756452E00EB4CEA /* Hide distractions on YouTube Extension (iOS) */,
-				D76921DA2756452E00EB4CEA /* Hide distractions on YouTube Extension (macOS) */,
+				D76921B22756452E00EB4CEA /* "No Distractions" for YouTube (iOS) */,
+				D76921C42756452E00EB4CEA /* "No Distractions" for YouTube (macOS) */,
+				D76921D02756452E00EB4CEA /* "No Distractions" for YouTube Extension (iOS) */,
+				D76921DA2756452E00EB4CEA /* "No Distractions" for YouTube Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -411,8 +411,8 @@
 			files = (
 				D7692212275645D800EB4CEA /* Icon.png in Resources */,
 				D76921E72756452E00EB4CEA /* Style.css in Resources */,
-				D76921CB2756452E00EB4CEA /* Main.storyboard in Resources */,
 				D76921E92756452E00EB4CEA /* Script.js in Resources */,
+				D7607A1D276792B100FB0E82 /* Main.storyboard in Resources */,
 				D76921ED2756452E00EB4CEA /* Assets.xcassets in Resources */,
 				D76921E32756452E00EB4CEA /* Main.html in Resources */,
 			);
@@ -491,12 +491,12 @@
 /* Begin PBXTargetDependency section */
 		D76921D42756452E00EB4CEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D76921D02756452E00EB4CEA /* Hide distractions on YouTube Extension (iOS) */;
+			target = D76921D02756452E00EB4CEA /* "No Distractions" for YouTube Extension (iOS) */;
 			targetProxy = D76921D32756452E00EB4CEA /* PBXContainerItemProxy */;
 		};
 		D76921DE2756452E00EB4CEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D76921DA2756452E00EB4CEA /* Hide distractions on YouTube Extension (macOS) */;
+			target = D76921DA2756452E00EB4CEA /* "No Distractions" for YouTube Extension (macOS) */;
 			targetProxy = D76921DD2756452E00EB4CEA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -656,7 +656,7 @@
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Hide distractions on YouTube Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "\"No Distractions\" for YouTube";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -669,8 +669,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Hide-distractions-on-YouTube.Extension";
-				PRODUCT_NAME = "Hide distractions on YouTube Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.yt-minimiser.yt-minimiser";
+				PRODUCT_NAME = "\"No Distractions\" for YouTube Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -687,7 +687,7 @@
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Hide distractions on YouTube Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "\"No Distractions\" for YouTube";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -700,8 +700,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Hide-distractions-on-YouTube.Extension";
-				PRODUCT_NAME = "Hide distractions on YouTube Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.yt-minimiser.yt-minimiser";
+				PRODUCT_NAME = "\"No Distractions\" for YouTube Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -722,7 +722,7 @@
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Hide distractions on YouTube";
+				INFOPLIST_KEY_CFBundleDisplayName = "\"No Distractions\" for YouTube";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -740,8 +740,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Hide-distractions-on-YouTube";
-				PRODUCT_NAME = "Hide distractions on YouTube";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.yt-minimiser";
+				PRODUCT_NAME = "\"No Distractions\" for YouTube";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -760,7 +760,7 @@
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Hide distractions on YouTube";
+				INFOPLIST_KEY_CFBundleDisplayName = "\"No Distractions\" for YouTube";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -778,8 +778,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Hide-distractions-on-YouTube";
-				PRODUCT_NAME = "Hide distractions on YouTube";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.yt-minimiser";
+				PRODUCT_NAME = "\"No Distractions\" for YouTube";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -791,14 +791,14 @@
 		D769220A2756452E00EB4CEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Hide distractions on YouTube.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/No Distractions for YouTube.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Hide distractions on YouTube Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "\"No Distractions\" for YouTube Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -806,13 +806,13 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Hide-distractions-on-YouTube.Extension";
-				PRODUCT_NAME = "Hide distractions on YouTube Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.yt-minimiser.yt-minimiser";
+				PRODUCT_NAME = "\"No Distractions\" for YouTube Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -823,14 +823,14 @@
 		D769220B2756452E00EB4CEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Hide distractions on YouTube.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/No Distractions for YouTube.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Hide distractions on YouTube Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "\"No Distractions\" for YouTube Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -838,13 +838,13 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Hide-distractions-on-YouTube.Extension";
-				PRODUCT_NAME = "Hide distractions on YouTube Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.yt-minimiser.yt-minimiser";
+				PRODUCT_NAME = "\"No Distractions\" for YouTube Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -858,13 +858,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Hide distractions on YouTube.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/No Distractions for YouTube.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Hide distractions on YouTube";
+				INFOPLIST_KEY_CFBundleDisplayName = "\"No Distractions\" for YouTube";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -873,15 +873,15 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Hide-distractions-on-YouTube";
-				PRODUCT_NAME = "Hide distractions on YouTube";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.yt-minimiser";
+				PRODUCT_NAME = "\"No Distractions\" for YouTube";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -894,13 +894,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Hide distractions on YouTube.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/No Distractions for YouTube.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Hide distractions on YouTube";
+				INFOPLIST_KEY_CFBundleDisplayName = "\"No Distractions\" for YouTube";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -909,15 +909,15 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Hide-distractions-on-YouTube";
-				PRODUCT_NAME = "Hide distractions on YouTube";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.yt-minimiser";
+				PRODUCT_NAME = "\"No Distractions\" for YouTube";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -927,7 +927,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D769219A2756452C00EB4CEA /* Build configuration list for PBXProject "Hide distractions on YouTube" */ = {
+		D769219A2756452C00EB4CEA /* Build configuration list for PBXProject ""No Distractions" for YouTube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D76922002756452E00EB4CEA /* Debug */,
@@ -936,7 +936,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D76922022756452E00EB4CEA /* Build configuration list for PBXNativeTarget "Hide distractions on YouTube Extension (iOS)" */ = {
+		D76922022756452E00EB4CEA /* Build configuration list for PBXNativeTarget ""No Distractions" for YouTube Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D76922032756452E00EB4CEA /* Debug */,
@@ -945,7 +945,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D76922062756452E00EB4CEA /* Build configuration list for PBXNativeTarget "Hide distractions on YouTube (iOS)" */ = {
+		D76922062756452E00EB4CEA /* Build configuration list for PBXNativeTarget ""No Distractions" for YouTube (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D76922072756452E00EB4CEA /* Debug */,
@@ -954,7 +954,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D76922092756452E00EB4CEA /* Build configuration list for PBXNativeTarget "Hide distractions on YouTube Extension (macOS)" */ = {
+		D76922092756452E00EB4CEA /* Build configuration list for PBXNativeTarget ""No Distractions" for YouTube Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D769220A2756452E00EB4CEA /* Debug */,
@@ -963,7 +963,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D769220D2756452E00EB4CEA /* Build configuration list for PBXNativeTarget "Hide distractions on YouTube (macOS)" */ = {
+		D769220D2756452E00EB4CEA /* Build configuration list for PBXNativeTarget ""No Distractions" for YouTube (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D769220E2756452E00EB4CEA /* Debug */,
